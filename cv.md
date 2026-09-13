@@ -6,15 +6,15 @@
 ---
 
 ## About Me
-*I am a beginner developer hightly motivated to learn frontend and full-stack engineering.Ready to dedicate maximum time to studies.*
+*I am a beginner developer hightly motivated to learn frontend and full-stack engineering.Ready to commit fully to learning.*
 
-## Skils 
+## Skills 
 * **Languages:** HTML (basic), CSS (basic), Java (basic), Python (basic), TypeScript (basic)
 * **Tools:** GitHub, VS Code, IntelliJ IDEA, PyCharm
-* **Other:** Good communicative and working in team skills
+* **Other:** Good communication and teamworking skills
 
 ## Code's example (Java)
-'''java
+```java
 void main () {
   int [] a = {1, 2, -4, 5};
 
@@ -30,13 +30,12 @@ void main () {
 
       IO.println(sum / a.length);
   }
-}
-
+```
 ## Experience
 RSSchool Full-Stack JavaScript 2026 Q3
 
 ## Education
-Complete Secondary Education 
+Completed Secondary Education 
 
 ## Languages
 * **English:** B2
