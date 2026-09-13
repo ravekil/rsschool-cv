@@ -3,10 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>CV</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Veranika Radzivonava</h1>
+    <img src="https://avatars.githubusercontent.com/u/326548806?v=4" alt="photo" width="150">
     <h2>Contact information</h2>
     <ul>
       <li>Location: Warsaw</li>
@@ -34,33 +36,41 @@
   int [] a = {1, 2, -4, 5};
 
       double sum = 0;
-      double min = Integer.MAX_VALUE
+      double min = Integer.MAX_VALUE;
         
-      for(int i = 0; i &lt a.length; i++) {
+      for(int i = 0; i &lt; a.length; i++) {
           sum = sum + a[i];
-          if (min &gt a[i]) {
+          if (min &gt; a[i]) {
               min = a[i];
           }
       }
       IO.println(sum / a.length);
 }</code></pre>
-      <section>
-        <h3>Experience</h3>
-        <p>RSSchool Full-Stack JavaScript 2026 Q3</p>
-      </section>
-      <section>
-        <h3>Education</h3>
-        <p>Completed Secondary Education</p>
-      </section>
-      <section>
-        <h2>Languages</h2>
-        <ul>
-      <li>English: B2</li>
-      <li>Russian: Native</li>
-      <li>Belarusian: Native</li>
-      <li>Ukrainiann: Native</li>
+    </section>
+    <section>
+      <h2>Experience</h2>
+      <p>RSSchool Full-Stack JavaScript 2026 Q3</p>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <p>Completed Secondary Education</p>
+    </section>
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>English: B2</li>
+        <li>Russian: Native</li>
+        <li>Belarusian: Native</li>
+        <li>Ukrainiann: Native</li>
       </ul>
-      </section>
+    </section>
   </main>
+ <footer>
+  <a href="https://github.com/ravekil">My GitHub profil</a>
+  <span>2026</span>
+  <a href="https://rs.school/ru/courses/javascript-preschool-ru">
+    <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/d2afce4f39272e3eca5c83545181bbb7172ade0e/fullstack-engineering/tasks/cv/assets/rs-school-logo.svg" alt="RS School Logo">
+  </a>
+</footer>
 </body>
 </html>
