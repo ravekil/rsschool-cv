@@ -19,7 +19,7 @@ void main () {
   int [] a = {1, 2, -4, 5};
 
       double sum = 0;
-      double min = Integer.MAX_VALUE
+      double min = Integer.MAX_VALUE;
         
       for(int i = 0; i < a.length; i++) {
           sum = sum + a[i];
